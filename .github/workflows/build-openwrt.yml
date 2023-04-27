@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/Leo-PL/openwrt.git
+  REPO_URL: https://github.com/Cossey/openwrt.git
   REPO_BRANCH: meraki-mr18-ath79
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: mr18config
@@ -30,8 +30,8 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
-  UPLOAD_RELEASE: false
-  TZ: Europe/London
+  UPLOAD_RELEASE: true
+  TZ: Pacific/Auckland
 
 jobs:
   build:
